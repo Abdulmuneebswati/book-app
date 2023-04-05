@@ -1,2 +1,2 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/books-store").then(()=>console.log("Successful")).catch((err)=>console.log(err));
+mongoose.connect("mongodb+srv://muneeb:roxen123@cluster0.fdn2wwz.mongodb.net/books-app").then(()=>console.log("Successful")).catch((err)=>console.log(err));

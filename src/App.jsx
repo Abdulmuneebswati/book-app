@@ -6,7 +6,7 @@ import Home from "./Pages/Home/Home";
 import Book from "./Pages/Book/Book";
 function App() {
   return (
-    <div className="App">
+    <div className="App">       
       <Router>
         <Layout>
           <Routes>
